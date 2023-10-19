@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>FA EXHIBITION</title>
+    <meta name="description" content="花の展示会のご案内">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="logo">
+        <a href="#"><img src="img/logo.svg" alt="FA EXHIBITION"></a>
+      </div>
+
+      <nav id="navi">
+        <ul class="menu">
+          <li><a href="#">TOP</a></li>
+          <li><a href="#information">INFORMATION</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <div class="container">
+      <main>
+        <div id="mainvisual">
+          <img src="img/mainvisual1r.jpg" alt="flower1">
+          <img src="img/mainvisual2r.jpg" alt="flower2">
+          <img src="img/mainvisual3r.jpg" style="transform: scale(-1, 1)" alt="flower3"> 
+        </div>
+
+        <h1 class="site-title inview fadein">Hello Flowers!<br>FA EXHIBITION 2023</h1>
+
+        <section id="information" class="inview fadein">
+          <h2 class="section-title">INFORMATION</h2>
+          <p>
+            <span class="info-date-en">2024 JUL 1<sup>st</sup> (Thu) - 3<sup>rd</sup> (Sat)</p></span>
+            <span class="info-time-en">Day 1: 10am - 6pm, 2<sup>nd</sup>& 3<sup>rd</sup>: 10am-5:30pm</span>
+          </p>
+          <p class="info-place">at PARK SIDE HALL</p>
+          <p class="info-date-ja">
+            2024年7月1日（木）ー3日（土）<br>
+            Day1 10時〜18時  その他 10時〜17時30分
+          </p>            
+        </section>
+        
+        <div id="side-btn">
+          <a href="#">FOR VISITOR</a>
+          <a href="#">FOR EXHIBITOR</a>
+        </div>
+
+        <section id="gallery" class="wrapper">
+          <h2 class="section-title inview fadein">GALLERY</h2>
+          <ul class="list">
+            <li class="inview fadein"><img src="img/flower1r.jpg" alt=""></li>
+            <li class="inview fadein"><img src="img/flower2r.jpg" alt=""></li>
+            <li class="inview fadein"><img src="img/flower3r.jpg" alt=""></li>
+            <li class="inview fadein"><img src="img/flower4r.jpg" alt=""></li>
+            <li class="inview fadein"><img src="img/flower5r.jpg" alt=""></li>
+            <li class="inview fadein"><img src="img/flower6r.jpg" alt=""></li>
+          </ul>
+        </section>
+
+        <section id="access">
+          <h2 class="section-title">ACCESS</h2>
+          <p class="place">at PARK SIDE HALL</p>
+
+          <p class="address">
+            郵便番号152-0035東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>
+          PARK SIDE HALL 1-1-1 Jiyugaoka Meguro-ku Tokyo
+          </p>
+          <p class="contact">
+            Tel: 03-1111-1111<br>
+            E-mail: info@faexibition.jp
+          </p>
+          <a class="btn" href="#" target="_blank">GOOGLE MAP</a>
+        </section>
+
+        <section id="contact" class="wrapper">
+          <h2 class="section-title">CONTACT</h2>
+          <a class="btn" href="#">出展に関するお問い合わせ</a>
+          <a class="btn" href="#">その他のお問い合わせ</a>
+        </section>
+
+        <div class="bg"></div>
+      </main>
+
+      <footer id="footer">
+        <div>
+          <p>FA EXHIBITION</p>
+          <p>郵便番号152-0035東京都目黒区自由が丘1-1-1 PARK SIDE HALL</p>
+          <p class="contact">
+            Tel: 03-1111-1111<br>
+            E-mail: info@faexibition.jp
+          </p>
+          <ul class="sns">
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+          </ul>   
+        </div>
+        <ul class="copyright">
+          <li><a href="#">PRIVACY POLICY</a></li> 
+          <li>&copy; FA EXHIBITION</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
